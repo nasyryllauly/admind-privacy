@@ -29,6 +29,36 @@ body {
     margin-bottom: 40px;
     padding: 40px 0;
     border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+
+/* Language switcher */
+.language-switcher {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 0.9rem;
+}
+
+.lang-link {
+    color: #666;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.lang-link:hover {
+    color: #2B6EF6;
+}
+
+.lang-link.active {
+    color: #2B6EF6;
+    font-weight: 600;
+}
+
+.lang-separator {
+    margin: 0 8px;
+    color: #ccc;
 }
 
 .logo {
@@ -153,6 +183,11 @@ a:hover {
     .header {
         padding: 30px 0;
         margin-bottom: 30px;
+    }
+    
+    .language-switcher {
+        position: static;
+        margin-bottom: 20px;
     }
     
     .header h1 {
