@@ -1,0 +1,27 @@
+<svg width="300" height="80" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brain icon with analytics -->
+  <g transform="translate(10, 10)">
+    <!-- Brain outline -->
+    <path d="M20 15 C15 10, 5 10, 5 20 C5 25, 8 30, 12 35 C15 40, 20 45, 25 50 C30 45, 35 40, 38 35 C42 30, 45 25, 45 20 C45 10, 35 10, 30 15 C28 12, 22 12, 20 15 Z" 
+          fill="none" stroke="#2B6EF6" stroke-width="3"/>
+    
+    <!-- Analytics chart inside brain -->
+    <g transform="translate(15, 25)">
+      <!-- Data points -->
+      <circle cx="5" cy="15" r="2" fill="#2B6EF6"/>
+      <circle cx="12" cy="10" r="2" fill="#2B6EF6"/>
+      <circle cx="19" cy="5" r="2" fill="#2B6EF6"/>
+      
+      <!-- Connecting lines -->
+      <line x1="5" y1="15" x2="12" y2="10" stroke="#2B6EF6" stroke-width="2"/>
+      <line x1="12" y1="10" x2="19" y2="5" stroke="#2B6EF6" stroke-width="2"/>
+      
+      <!-- Upward arrow -->
+      <path d="M19 5 L22 2 L25 5" fill="none" stroke="#2B6EF6" stroke-width="2"/>
+    </g>
+  </g>
+  
+  <!-- AdMind text -->
+  <text x="80" y="45" font-family="Arial, sans-serif" font-size="32" font-weight="600" fill="#1A1A1A">AdMind</text>
+</svg>
+
